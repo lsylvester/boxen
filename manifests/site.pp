@@ -72,6 +72,8 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  include postgresql
+
   # common, useful packages
   package {
     [
