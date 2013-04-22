@@ -74,6 +74,7 @@ node default {
 
   include postgresql
   include wkhtmltopdf
+  include imagemagick
 
   # common, useful packages
   package {
