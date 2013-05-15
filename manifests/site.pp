@@ -75,7 +75,7 @@ node default {
   include postgresql
   include wkhtmltopdf
   include imagemagick
-
+  include mysql
   # common, useful packages
   package {
     [
