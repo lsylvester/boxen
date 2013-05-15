@@ -36,6 +36,7 @@ github "wkhtmltopdf", '1.0.0'
 github "imagemagick", "1.0.1", :repo => "shazino/puppet-imagemagick"
 github "xquartz", '1.0.0'
 github "mysql", '1.0.0'
+github "redis", '1.0.0'
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

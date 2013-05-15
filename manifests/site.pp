@@ -76,6 +76,7 @@ node default {
   include wkhtmltopdf
   include imagemagick
   include mysql
+  include redis
   # common, useful packages
   package {
     [
