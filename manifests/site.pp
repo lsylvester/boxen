@@ -81,7 +81,7 @@ node default {
   include memcached
   include skype
   include dockutil
-  dockutil::item { 'Add Style':
+  dockutil::item { 'Add Skype':
     item     => "/Applications/Skype.app",
     label    => "Skype",
     action   => "add",
