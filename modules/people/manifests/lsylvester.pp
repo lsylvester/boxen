@@ -37,4 +37,13 @@ class people::lsylvester {
     action   => "add",
     position => 5,
   }
+  
+  include textmate::textmate2::nightly
+  
+  dockutil::item { 'Add Textmate':
+    item     => "/Applications/Textmate.app",
+    label    => "Textmate",
+    action   => "add",
+    position => 6,
+  }
 }
