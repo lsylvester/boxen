@@ -31,4 +31,10 @@ class people::lsylvester {
     target => '/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles/puppet-textmate-bundle/Puppet.tmbundle'
   }
   
+  dockutil::item { 'Add Skype':
+    item     => "/Applications/Skype.app",
+    label    => "Skype",
+    action   => "add",
+    position => 5,
+  }
 }
