@@ -39,5 +39,6 @@ github "mysql", '1.0.0'
 github "redis", '1.0.0'
 github "memcached", '1.2.0'
 github "skype", "1.0.2"
+github "dockutil", "0.1.2", :repo => 'grahamgilbert/puppet-dockutil'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

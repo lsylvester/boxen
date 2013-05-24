@@ -80,6 +80,14 @@ node default {
   include redis
   include memcached
   include skype
+  include dockutil
+  dockutil::item { 'Add Style':
+    item     => "/Applications/Skype.app",
+    label    => "Skype",
+    action   => "add",
+    position => 5,
+  }
+  
   # common, useful packages
   package {
     [
