@@ -79,6 +79,7 @@ node default {
   include mysql
   include redis
   include memcached
+  include skype
   # common, useful packages
   package {
     [

@@ -38,5 +38,6 @@ github "xquartz", '1.0.0'
 github "mysql", '1.0.0'
 github "redis", '1.0.0'
 github "memcached", '1.2.0'
+github "skype", "1.0.2"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
