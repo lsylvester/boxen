@@ -81,7 +81,7 @@ node default {
   include memcached
   include skype
   include dockutil
-  
+  include chrome
   # common, useful packages
   package {
     [
