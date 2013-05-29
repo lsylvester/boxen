@@ -89,6 +89,11 @@ GITHUBTARBALL
     textmate (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
   specs:
     wkhtmltopdf (1.0.0)
@@ -147,6 +152,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   textmate (= 1.1.0)
+  virtualbox (= 1.0.2)
   wkhtmltopdf (= 1.0.0)
   xquartz (= 1.0.0)
 

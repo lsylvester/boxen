@@ -42,5 +42,6 @@ github "skype", "1.0.2"
 github "dockutil", "0.1.2", :repo => 'grahamgilbert/puppet-dockutil'
 github "textmate", "1.1.0"
 github "chrome", "1.1.0"
+github "virtualbox", "1.0.2"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

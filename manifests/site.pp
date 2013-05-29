@@ -82,6 +82,7 @@ node default {
   include skype
   include dockutil
   include chrome
+  include virtualbox
   # common, useful packages
   package {
     [
