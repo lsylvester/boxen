@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.2.0"
+github "boxen", "2.1.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -25,7 +25,7 @@ github "homebrew", "1.1.2"
 github "hub",      "1.0.0"
 github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
-github "nodejs",   "1.0.0"
+github "nodejs",   "3.2.3"
 github "nvm",      "1.0.0"
 github "ruby",     "4.1.3", :repo => "lsylvester/puppet-ruby"
 github "stdlib",   "4.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
@@ -43,5 +43,6 @@ github "dockutil", "0.1.2", :repo => 'grahamgilbert/puppet-dockutil'
 github "textmate", "1.1.0"
 github "chrome", "1.1.0"
 github "virtualbox", "1.0.2"
+github "repository", '2.2.0'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

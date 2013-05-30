@@ -54,17 +54,11 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
-
-  # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
 
   # default ruby versions
   include ruby::1_8_7
@@ -83,6 +77,13 @@ node default {
   include dockutil
   include chrome
   include virtualbox
+  
+  
+  include nodejs::v0_10
+  nodejs::module { 'coffee-script':
+    node_version => 'v0.10',
+    ensure       => '1.6.2'
+  }
   # common, useful packages
   package {
     [
