@@ -84,6 +84,10 @@ node default {
     node_version => 'v0.10',
     ensure       => '1.6.2'
   }
+  nodejs::module { 'karma':
+    node_version => 'v0.10',
+    ensure       => '0.8'
+  }
   # common, useful packages
   package {
     [
