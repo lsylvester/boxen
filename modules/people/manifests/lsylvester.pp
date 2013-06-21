@@ -46,4 +46,11 @@ class people::lsylvester {
     action   => "add",
     position => 6,
   }
+  
+  dockutil::item { 'Add iPhone Simulator':
+    item     => "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app",
+    label    => "iPhone Simulator",
+    action   => "add",
+    position => 7,
+  }
 }
