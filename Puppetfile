@@ -43,6 +43,8 @@ github "dockutil", "0.1.2", :repo => 'grahamgilbert/puppet-dockutil'
 github "textmate", "1.1.0"
 github "chrome", "1.1.0"
 github "virtualbox", "1.0.2"
+github "vagrant", '2.0.7'
 github "repository", '2.2.0'
+github "phantomjs", "2.0.2"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

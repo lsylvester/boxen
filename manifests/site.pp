@@ -77,7 +77,10 @@ node default {
   include dockutil
   include chrome
   include virtualbox
-  
+  include phantomjs
+  include vagrant
+
+  phantomjs::version { '1.9.0': }
   
   include nodejs::v0_10
   nodejs::module { 'coffee-script':
