@@ -26,6 +26,11 @@ class people::lsylvester {
     require => File['/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles']
   }
   
+  # repository { '/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles/HAML.tmbundle':
+  #   source  => 'phuibonhoa/handcrafted-haml-textmate-bundle',
+  #   require => File['/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles']
+  # }
+  
   file { '/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles/Puppet.tmbundle':
     ensure =>  link,
     target => '/Users/lachlansylvester/Library/Application Support/TextMate/Managed/Bundles/puppet-textmate-bundle/Puppet.tmbundle'

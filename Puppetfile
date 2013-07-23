@@ -27,7 +27,7 @@ github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
 github "nodejs",   "3.2.3"
 github "nvm",      "1.0.0"
-github "ruby",     "4.1.3", :repo => "lsylvester/puppet-ruby"
+github "ruby",     "6.0.2", :repo => "lsylvester/puppet-ruby"
 github "stdlib",   "4.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 github "postgresql", "1.0.0"
@@ -46,5 +46,6 @@ github "virtualbox", "1.0.2"
 github "vagrant", '2.0.7'
 github "repository", '2.2.0'
 github "phantomjs", "2.0.2"
+github 'rabbitmq', '0.0.3', :repo => 'theflow/puppet-rabbitmq'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

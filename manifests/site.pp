@@ -64,9 +64,11 @@ node default {
   include ruby::1_8_7
   include ruby::1_9_2
   include ruby::1_9_3
+  include ruby::1_9_3_p448
   include ruby::2_0_0_p0
   include ruby::2_0_0_p195
-
+  include ruby::1_8_7_p358
+  include ruby::1_8_7_p357
   include postgresql
   include wkhtmltopdf
   include imagemagick
@@ -79,7 +81,7 @@ node default {
   include virtualbox
   include phantomjs
   include vagrant
-
+  include rabbitmq
   phantomjs::version { '1.9.0': }
   
   include nodejs::v0_10
@@ -87,10 +89,7 @@ node default {
     node_version => 'v0.10',
     ensure       => '1.6.2'
   }
-  nodejs::module { 'karma':
-    node_version => 'v0.10',
-    ensure       => '0.8'
-  }
+
   # common, useful packages
   package {
     [
