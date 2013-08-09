@@ -47,5 +47,6 @@ github "vagrant", '2.0.7'
 github "repository", '2.2.0'
 github "phantomjs", "2.0.2"
 github 'rabbitmq', '0.0.3', :repo => 'theflow/puppet-rabbitmq'
+github 'python', '1.2.1'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

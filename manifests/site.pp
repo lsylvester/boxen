@@ -82,6 +82,13 @@ node default {
   include phantomjs
   include vagrant
   include rabbitmq
+  include python
+  include python::virtualenvwrapper
+
+  python::pip{ 'py-mysql2pgsql':
+    virtualenv =>  $python::config::global_venv,
+    ensure => present
+  }
   phantomjs::version { '1.9.0': }
   
   include nodejs::v0_10
