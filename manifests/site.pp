@@ -90,7 +90,7 @@ node default {
     ensure => present
   }
   phantomjs::version { '1.9.0': }
-  
+
   include nodejs::v0_10
   nodejs::module { 'coffee-script':
     node_version => 'v0.10',

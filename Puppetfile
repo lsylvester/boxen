@@ -30,7 +30,7 @@ github "nvm",      "1.0.0"
 github "ruby",     "6.0.2", :repo => "lsylvester/puppet-ruby"
 github "stdlib",   "4.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
-github "postgresql", "1.0.0"
+github "postgresql", "2.0.0"
 github "sysctl", '1.0.0'
 github "wkhtmltopdf", '1.0.0'
 github "imagemagick", "1.0.1", :repo => "shazino/puppet-imagemagick"
