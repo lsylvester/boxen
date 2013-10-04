@@ -74,6 +74,11 @@ GITHUBTARBALL
     python (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -172,6 +177,7 @@ DEPENDENCIES
   phantomjs (= 2.0.2)
   postgresql (= 2.0.0)
   python (= 1.2.1)
+  qt (= 1.0.0)
   rabbitmq (= 0.0.3)
   redis (= 1.0.0)
   repository (= 2.2.0)

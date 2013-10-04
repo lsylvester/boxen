@@ -84,7 +84,7 @@ node default {
   include rabbitmq
   include python
   include python::virtualenvwrapper
-
+  include 'qt'
   python::pip{ 'py-mysql2pgsql':
     virtualenv =>  $python::config::global_venv,
     ensure => present

@@ -48,5 +48,6 @@ github "repository", '2.2.0'
 github "phantomjs", "2.0.2"
 github 'rabbitmq', '0.0.3', :repo => 'theflow/puppet-rabbitmq'
 github 'python', '1.2.1'
+github 'qt', '1.0.0'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
